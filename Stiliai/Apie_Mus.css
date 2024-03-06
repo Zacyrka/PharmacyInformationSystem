@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../Nuotraukos/Fonas.jpg');
+    background-size: cover;
+    background-attachment: fixed; /* Užfiksuoti fono paveikslėlį */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-top: 155px; /* Tarpas nuo viršaus */
+    font-size: 45px; /* Nustato šrifto dydį */
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.right-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #A6CF98;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.center-section {
+    text-align: center; /* Elementai centravimui */
+    margin-bottom: 200px;
+}
+
+.center-section h2 {
+    margin-top: 10px;
+    margin-bottom: 20px; /* Pakeičia tarpą po h2 "Prisijungimas" */
+}

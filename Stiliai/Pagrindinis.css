@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background-color: #FFF5C2
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.features {
+    background-color: #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Panaikiname tarpą po paskutinio mygtuko */
+}
+
+nav ul li a {
+    display: block; /* Padarys nuorodas blokine forma */
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    background-color: #C69774;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: crimson;
+}
+
+.post-container {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.quantity {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.no-results {
+    text-align: center;
+    color: #555;
+    font-style: italic;
+    margin-top: 20px;
+}

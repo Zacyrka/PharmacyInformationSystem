@@ -1,0 +1,119 @@
+/* Stiliai Administratoriaus puslapiui */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C1F2B0;
+}
+
+.sidebar {
+    background-color: #333;
+    color: aqua;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #555;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+li:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    background-color: #C1F2B0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar ul {
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #555;
+}
+
+.sidebar li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar li a:hover {
+    background-color: #45a049;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+input[type="text"],
+textarea {
+    width: calc(100% - 20px); /* Padidiname lauko plotį ir panaikiname padding */
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-right: 50px;
+}

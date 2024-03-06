@@ -1,0 +1,40 @@
+/* Statistika.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C3E2C2;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#myChart {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 1500px;
+    max-height: 800px;
+}
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px; /* Keičiame šią reikšmę */
+    margin-bottom: 10px; /* Keičiame šią reikšmę */
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: 1700px;
+}
+
+a:hover {
+    background-color: #45a049;
+}
