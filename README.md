@@ -1,8 +1,4 @@
 # Pharmacy Information System
-
-A PHP based pharmacy information system that has User Management, Post Management, Statistical Analysis, Search Functionality, Administrative Tools, Responsive Design
-
-# Pharmacy Information System
 Pharmacy Information System is a web-based application designed to manage various aspects of a pharmacy, including managing posts about medications, user profiles, and basic administrative functions. It provides functionalities for adding, viewing, and editing posts, managing user accounts, and generating statistics.
 
 ## Features
