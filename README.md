@@ -26,6 +26,13 @@ Pharmacy Information System is a web-based application designed to manage variou
 3. Log in using the provided credentials or create a new user account.
 4. Explore the different functionalities, such as adding and editing posts, managing users, and viewing statistics.
 
+## Languages Used
+
+- PHP
+- HTML
+- CSS
+- JavaScript
+
 ## File Structure
 
 -PasalintiVartotoja.php: Script for deleting user accounts.
